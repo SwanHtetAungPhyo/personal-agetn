@@ -1,0 +1,39 @@
+{
+  "name": "openrouter_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@clerk/backend": "^2.9.4",
+    "@hono/clerk-auth": "^3.0.3",
+    "@mastra/client-js": "^0.10.23",
+    "@mastra/core": "^0.14.1",
+    "@mastra/libsql": "^0.13.4",
+    "@mastra/loggers": "^0.10.7",
+    "@mastra/memory": "^0.13.1",
+    "@openrouter/ai-sdk-provider": "^1.1.2",
+    "axios": "^1.11.0",
+    "binance": "^3.0.6",
+    "exa-js": "^1.9.1",
+    "hono": "^4.9.4",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "mastra": "^0.10.23",
+    "typescript": "^5.9.2"
+  }
+}
