@@ -49,7 +49,7 @@ export const webSearchTool = createTool({
                         continue;
                     }
 
-                    const summaryResponse = await summaryAgent.generate([
+                    const summaryResponse = await summaryAgent.generateVNext([
                         {
                             role: 'user',
                             content: `Please summarize the following web content for research query: "${query}"
